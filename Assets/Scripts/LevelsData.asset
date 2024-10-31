@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888678ba2a1ec45f5867231a98b7e0fc, type: 3}
+  m_Name: LevelsData
+  m_EditorClassIdentifier: 
+  LevelsData:
+  - SpawnInterval: 0.5
+    TimerLimit: 60
+    ScoreTarget: 15
+    PlayerHP: 10
+  - SpawnInterval: 0.5
+    TimerLimit: 60
+    ScoreTarget: 20
+    PlayerHP: 10
+  - SpawnInterval: 0.45
+    TimerLimit: 40
+    ScoreTarget: 25
+    PlayerHP: 5
+  - SpawnInterval: 0.4
+    TimerLimit: 40
+    ScoreTarget: 40
+    PlayerHP: 5
+  - SpawnInterval: 0.4
+    TimerLimit: 35
+    ScoreTarget: 40
+    PlayerHP: 3
+  - SpawnInterval: 0.4
+    TimerLimit: 60
+    ScoreTarget: 70
+    PlayerHP: 3
+  - SpawnInterval: 0.3
+    TimerLimit: 50
+    ScoreTarget: 100
+    PlayerHP: 1
+  - SpawnInterval: 0.25
+    TimerLimit: 50
+    ScoreTarget: 100
+    PlayerHP: 1
